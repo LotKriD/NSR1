@@ -1,0 +1,58 @@
+{
+
+	"categories": 
+	{
+		"1" : 
+		{
+			"category": "Food"
+		},
+		"2" :
+		{
+			"category": "Tech"
+		},
+		"3" :
+		{
+			"category": "Constructs"
+		}
+	},
+
+	"product":
+	{
+		"1" :
+		{
+			"category_id": "1",
+			"product": "Pizza",
+			"price": 500
+		},
+		"2":
+		{
+			"category_id": "1",
+			"product": "Suchi",
+			"price": 350
+		},
+		"3":
+		{
+			"category_id": "2",
+			"product": "Laptop",
+			"price": 50000 
+		},
+		"4":
+		{
+			"category_id": "2",
+			"product": "Smartphone",
+			"price": 17000
+		},
+		"5":
+		{
+			"category_id": "3",
+			"product": "Lego Star Wars",
+			"price": 10000
+		},
+		"6":
+		{
+			"category_id": "3",
+			"product": "Lego Lord of the Rings",
+			"price": 10000
+		}
+	}
+}

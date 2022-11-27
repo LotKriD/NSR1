@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+    <meta lang="ru" charset = "utf-8">
+    <title>Список товаров</title>
+</head>
+<body>
+    <form method="POST">
+        <p><h3>Введите название товара:</h3></p>
+        <input class="product" name="product" placeholder="Введите название товара">
+        <input type="submit" value="Сортировка">
+        <p><h1><strong>Товары:</strong></h1></p>
+        {% for product in data %}
+        <p>{{product}}</p>
+        {% endfor %}
+    </form>
+</body>
+</html>

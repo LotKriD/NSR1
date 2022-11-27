@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+<head>
+    <meta lang="ru" charset = "utf-8">
+    <title>Товары</title>
+</head>
+<body>
+    <form action="{{ url_for('render_categories')}}">
+        <button type="submit">Перейти к категориям товаров</button>
+    </form>
+    <form action="{{ url_for('render_products') }}">
+        <button type="submit">Перейти к списку товаров</button>
+    </form>
+</body>
+</html>
